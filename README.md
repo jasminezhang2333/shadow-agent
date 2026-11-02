@@ -12,7 +12,7 @@
 
 ## 1. 演示视频
 
-📹 **[观看完整演示视频](https://github.com/jasminezhang2333/shadow-agent/releases/download/v1.0/ShadowAgent-演示视频.mp4)**
+📹 **[观看完整演示视频](https://github.com/jasminezhang2333/shadow-agent/releases/download/v1.0/demo.mp4)**
 
 > 演示视频展示了 Shadow Agent 的核心功能：虚拟屏分身操作、记忆检索和商品比价
 
