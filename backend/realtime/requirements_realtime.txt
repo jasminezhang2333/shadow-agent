@@ -1,0 +1,25 @@
+# Realtime MLLM service - third-party dependencies
+# Conda 新环境（Python 3.10/3.11）下装齐这一份即可启动 src.main。
+
+# DashScope Qwen-Omni Realtime SDK（默认 provider）
+dashscope>=1.20
+
+# OpenAI 兼容协议：Gemini Batch、豆包 OpenAPI chat.completion
+openai>=1.40
+
+# Gemini Live API（src/core/provider.py 里 from google import genai）
+google-genai>=1.0
+
+# GLM-Realtime WebSocket + WebSocket 服务端
+websockets>=12.0
+
+# 视频帧解码 / 重编码（DashScope/GLM/豆包 batch 三处用到）
+Pillow>=10.0
+
+# numpy：GLM-Realtime callback 等位置用
+numpy>=1.24
+
+# 客户端调试工具（deprecated/local_audio_client*.py 等本地脚本用）
+# 主服务端不强依赖，但保留以便 deprecated/ 下 demo 跑得起来
+pyaudio
+opencv-python

@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 虚拟环境
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 环境变量文件（包含敏感信息）
+.env
+
+# 数据库和日志
+*.db
+*.sqlite
+*.log
+.chroma_memory/
+
+# 临时文件
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Android
+android/.gradle/
+android/local.properties
+android/.idea/
+android/build/
+android/app/build/
+*.apk
+*.aab
+
+# realtime-MLLM 日志和测试输出
+backend/realtime/logs/
+backend/realtime/test/*.jpg
+backend/realtime/test/*.jpeg
+backend/realtime/test/*.png
+
+# 运行时录屏切片（数据产物，勿入库）
+backend/.slices/
+*.mp4
+
+# Gradle 发行包（gradlew 会自动下载；超过 GitHub 100MB 限制）
+android/gradle/wrapper/*.zip

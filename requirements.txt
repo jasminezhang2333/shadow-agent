@@ -1,0 +1,38 @@
+# Shadow Agent 完整依赖清单
+# 包含 shadow-agent 后端 + realtime-MLLM 网关的所有依赖
+
+# ========== Shadow Agent 后端 ==========
+fastapi>=0.110
+uvicorn>=0.27
+aiohttp>=3.9
+pydantic>=2.5
+langchain>=0.2
+langchain-core>=0.2
+langchain-community>=0.2
+langchain-chroma>=0.1
+chromadb>=0.5
+
+# ========== Realtime MLLM 网关 ==========
+# DashScope Qwen-Omni Realtime SDK（默认 provider）
+dashscope>=1.20
+
+# OpenAI 兼容协议：Gemini Batch、豆包 OpenAPI
+openai>=1.40
+
+# Gemini Live API
+google-genai>=1.0
+
+# GLM-Realtime WebSocket + WebSocket 服务端
+websockets>=12.0
+
+# 视频帧解码/重编码
+Pillow>=10.0
+
+# numpy：GLM-Realtime callback 等用
+numpy>=1.24
+
+# ========== 可选（调试工具）==========
+# 仅用于 deprecated/ 下的本地客户端 demo
+# Windows 装 pyaudio 失败可注释掉
+# pyaudio
+# opencv-python

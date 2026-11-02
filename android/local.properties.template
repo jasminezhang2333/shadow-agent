@@ -1,0 +1,4 @@
+# 复制为 local.properties，把路径改成你机器上的 Android SDK 位置。
+# Windows 反斜杠要转义，或直接用正斜杠。
+# 本工程默认放 D 盘：
+sdk.dir=D:/Android/Sdk
