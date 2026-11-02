@@ -14,6 +14,8 @@
 
 📹 **[点击观看 / 下载完整演示视频](https://github.com/jasminezhang2333/shadow-agent/releases/download/v1.0/demo.mp4)**
 
+📱 **[下载 Android APK (v1.0)](https://github.com/jasminezhang2333/shadow-agent/releases/download/v1.0/ShadowAgent-v1.0.apk)**
+
 > 演示视频展示了 Shadow Agent 的核心功能：虚拟屏分身操作、记忆检索和商品比价
 
 ---
